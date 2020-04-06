@@ -6187,14 +6187,14 @@ textarea {
 }
 @media (hover: hover) {
   .u-CloseIconLink--close:hover {
-    color: #af272f;
+    color: blue;
   }
   .u-CloseIconLink--close:hover .u-CloseIconLink--close-icon {
     transform: rotate(90deg);
   }
   .u-CloseIconLink--close:hover .u-CloseIconLink--close-icon::before,
   .u-CloseIconLink--close:hover .u-CloseIconLink--close-icon::after {
-    background-color: #af272f;
+    background-color: blue;
   }
 }
 .u-CloseIconLink--close-icon {
@@ -6229,7 +6229,7 @@ textarea {
 .c-Card__link,
 .c-CookieNotice__link {
   text-decoration: none;
-  color: #af272f;
+  color: blue;
   position: relative;
 }
 .hoverUnderline::after,
@@ -6248,7 +6248,7 @@ textarea {
   right: 0;
   width: 0;
   height: 1px;
-  background-color: #af272f;
+  background-color: blue;
   transition: all 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 @media (hover: hover) {
@@ -6270,7 +6270,7 @@ textarea {
 .l-InvestmentSingle__row--dark .l-InvestmentSingle__link {
   background-color: #eeeff0;
   transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
-  box-shadow: inset 0 0 0 0.01px #af272f;
+  box-shadow: inset 0 0 0 0.01px blue;
   padding: calc(0.00333 * 100vw + 14px);
   font-size: calc(0 * 100vw + 12px);
   letter-spacing: 0.15em;
@@ -6319,7 +6319,7 @@ textarea {
   .l-InvestmentSingle .c-ImageTextCTA__link:hover,
   .l-InvestmentSingle__row--dark .l-InvestmentSingle__link:hover {
     transition: all 500ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
-    box-shadow: inset 100vw 0 0 0.01px #af272f;
+    box-shadow: inset 100vw 0 0 0.01px blue;
     text-decoration: none;
     color: #fff;
   }
@@ -7825,12 +7825,12 @@ a {
 }
 a:focus {
   text-decoration: underline;
-  color: #af272f;
+  color: blue;
 }
 @media (hover: hover) {
   a:hover {
     text-decoration: underline;
-    color: #af272f;
+    color: blue;
   }
 }
 h1,
@@ -8900,7 +8900,7 @@ form textarea {
   height: 45px;
   -webkit-appearance: none;
   cursor: text;
-  caret-color: #af272f;
+  caret-color: blue;
 }
 @media screen and (max-width: 61.24875em) {
   form input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]),
@@ -8975,7 +8975,7 @@ select:focus {
   height: 10px;
   width: 10px;
   border-radius: 50%;
-  background-color: #af272f;
+  background-color: blue;
   left: 7px;
   top: 7px;
 }
@@ -9005,13 +9005,13 @@ select:focus {
   position: absolute;
   margin-left: 0.1rem;
   font-size: 16px;
-  color: #af272f;
+  color: blue;
 }
 form
   input:not([type="checkbox"]):not([type="radio"]):not([type="submit"])[aria-invalid="true"],
 form textarea[aria-invalid="true"] {
-  border-bottom-color: #af272f;
-  color: #af272f;
+  border-bottom-color: blue;
+  color: blue;
 }
 .gfield_error .validation_message {
   display: none;
@@ -9021,7 +9021,7 @@ form textarea[aria-invalid="true"] {
   border: 0px;
 }
 .sixform_checkbox--error .jcf-checkbox {
-  border-color: #af272f;
+  border-color: blue;
 }
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
@@ -9107,7 +9107,7 @@ input:-webkit-autofill:active {
   }
 }
 .validation_error {
-  background-color: #af272f;
+  background-color: blue;
 }
 .gform_confirmation_wrapper {
   background-color: #3bac62;
@@ -9752,7 +9752,7 @@ blockquote.right {
   bottom: -1px;
   width: 0;
   height: 3px;
-  background-color: #af272f;
+  background-color: blue;
   transition: all 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 .l-Header--right .menu-small-top-nav-container .menu > li > a:focus {
@@ -9934,7 +9934,7 @@ blockquote.right {
 }
 @media (hover: hover) {
   .l-Footer__top .l-Footer--left a:hover {
-    color: #af272f;
+    color: blue;
   }
 }
 .l-Footer__top .l-Footer--right p {
@@ -10456,7 +10456,7 @@ html.is-leaving .l-Main {
   }
 }
 .l-FilterPosts .js-cat-btn.is-active {
-  box-shadow: inset 100vw 0 0 0.01px #af272f;
+  box-shadow: inset 100vw 0 0 0.01px blue;
   color: #fff;
 }
 .l-InvestmentSingle__row {
@@ -10733,13 +10733,13 @@ html.is-leaving .l-Main {
   color: #000000;
 }
 .l-InvestmentSingle__row--dark .l-InvestmentSingle__link {
-  box-shadow: inset 0 0 0 0.01px #af272f;
+  box-shadow: inset 0 0 0 0.01px blue;
   background-color: rgba(29, 29, 27, 0.4);
   color: #fff;
 }
 @media (hover: hover) {
   .l-InvestmentSingle__row--dark .l-InvestmentSingle__link:hover {
-    box-shadow: inset 100vw 0 0 0.01px #af272f;
+    box-shadow: inset 100vw 0 0 0.01px blue;
     background-color: white;
     color: #fff;
   }
@@ -12609,7 +12609,7 @@ body.mobile .l-FilterInvestment .l-InvestmentGrid__cell {
 .CustomCursor--hover {
   transform: scale(1.5);
   background-color: transparent;
-  border-color: #af272f;
+  border-color: blue;
 }
 .CustomCursor--drag .CustomCursor__text {
   opacity: 1;
@@ -15547,7 +15547,7 @@ a[href^="https://maps.google.com/maps"] {
 .c-CookieNotice__btn {
   display: none;
   align-self: center;
-  border: 1px solid #af272f;
+  border: 1px solid blue;
   overflow: hidden;
   position: relative;
   transition: all 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
@@ -15555,7 +15555,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 @media (hover: hover) {
   .c-CookieNotice__btn:hover {
-    color: #af272f;
+    color: blue;
     transition: all 500ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
   }
 }
