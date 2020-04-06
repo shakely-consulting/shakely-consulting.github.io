@@ -27,7 +27,8 @@ const Navigation = () => (
         <ul id="menu-small-top-nav" className="menu">
           <li
             id="menu-item-92"
-            className="menu-item menu-item-type-post_type menu-item-object-page menu-item-92">
+            className="menu-item menu-item-type-post_type menu-item-object-page menu-item-92"
+          >
             {/* <NavLink exact activeClassName="current" to="/projects">
               Projects
             </NavLink> */}
@@ -35,7 +36,11 @@ const Navigation = () => (
         </ul>
       </div>
 
-      <a id="c-MainMenu__toggle" className="c-MainMenu__burger js-main-menu" href="/">
+      <a
+        id="c-MainMenu__toggle"
+        className="c-MainMenu__burger js-main-menu"
+        href="/"
+      >
         <span className="bar-1"></span>
         <span className="bar-2"></span>
         <span className="bar-3"></span>
@@ -49,16 +54,12 @@ const Navigation = () => (
               Close<span className="u-CloseIconLink--close-icon"></span>
             </p>
           </div>
-
+          <img id="SideMenu-img" src="/img/sc-logo-no3d-sm.png" alt="" />
           <div className="c-MainMenu__panel--content">
             <div className="c-MainMenu__main-links">
               <ul>
                 <li>
-                  <a
-                    className="js-hover-menu-img"
-                    href="projects/"
-                    data-img=""
-                  >
+                  <a className="js-hover-menu-img" href="projects/" data-img="">
                     Projects
                   </a>
                 </li>

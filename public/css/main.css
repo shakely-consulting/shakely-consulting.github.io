@@ -167,9 +167,11 @@ body {
 }
 img {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
   max-width: 100%;
   height: auto;
+  width: auto;
+  max-width: fit-content;
   -ms-interpolation-mode: bicubic;
 }
 textarea {
@@ -12632,6 +12634,11 @@ body.mobile .l-FilterInvestment .l-InvestmentGrid__cell {
   position: fixed;
   z-index: 1;
 }
+
+#SideMenu-img {
+  margin-top:-40px;
+}
+
 .c-MainMenu__panel {
   position: fixed;
   top: 0;
