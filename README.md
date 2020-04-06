@@ -1,3 +1,0 @@
-# Shakely-Consulting.github.io
-
-
