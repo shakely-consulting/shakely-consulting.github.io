@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 import { Switch, Route } from "react-router-dom";
 import Navigation from "./components/Navigation";
+import { Pdf } from "./components/Pdf"
 
 const Main = () => (
   <Switch>
@@ -18,9 +19,17 @@ const App = () => (
   </div>
 );
 
+
 ReactDOM.render(
   <Router>
     <App />
   </Router>,
   document.getElementById("root")
+);
+
+ReactDOM.render(
+  <Router>
+    <Pdf />
+  </Router>,
+  document.getElementById("pdf")
 );

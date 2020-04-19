@@ -1,6 +1,7 @@
-import React from "react";
+import React, { Component } from 'react';
 
-const Projects = () => (
+class Projects extends Component {
+  render() {
   <div className="mb-90-200">
     <div className="c-Carousel  c-Carousel--featured-investment c-Carousel--overflow">
       <div className="c-Carousel__inner">
