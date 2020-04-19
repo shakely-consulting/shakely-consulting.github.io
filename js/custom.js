@@ -86,9 +86,3 @@ for (var i = 0, max = TextElements.length; i < max; i++) {
     }
   };
 })("docReady", window);
-
-docReady(function () {
-  document.getElementById(
-    "getYear"
-  ).innerHTML = `${new Date().getFullYear()} Shakely Consulting LLC`;
-});

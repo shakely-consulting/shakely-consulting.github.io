@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.js": "/static/js/main.0377fb6d.chunk.js",
-    "main.js.map": "/static/js/main.0377fb6d.chunk.js.map",
+    "main.js": "/static/js/main.62c41804.chunk.js",
+    "main.js.map": "/static/js/main.62c41804.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d1ce8f0c.js",
     "runtime-main.js.map": "/static/js/runtime-main.d1ce8f0c.js.map",
-    "static/js/2.97b79f62.chunk.js": "/static/js/2.97b79f62.chunk.js",
-    "static/js/2.97b79f62.chunk.js.map": "/static/js/2.97b79f62.chunk.js.map",
+    "static/js/2.ae740b77.chunk.js": "/static/js/2.ae740b77.chunk.js",
+    "static/js/2.ae740b77.chunk.js.map": "/static/js/2.ae740b77.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1ede0e23af1529d24b04aa1520fabbd8.js": "/precache-manifest.1ede0e23af1529d24b04aa1520fabbd8.js",
+    "precache-manifest.53066d96708f7e5336ee2095acf321da.js": "/precache-manifest.53066d96708f7e5336ee2095acf321da.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.97b79f62.chunk.js.LICENSE.txt": "/static/js/2.97b79f62.chunk.js.LICENSE.txt"
+    "static/js/2.ae740b77.chunk.js.LICENSE.txt": "/static/js/2.ae740b77.chunk.js.LICENSE.txt",
+    "static/media/QReport.png": "/static/media/QReport.432d2342.png",
+    "static/media/Shakely Consulting Properties Q3 Demo Report.pdf": "/static/media/Shakely Consulting Properties Q3 Demo Report.a63c7333.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.d1ce8f0c.js",
-    "static/js/2.97b79f62.chunk.js",
-    "static/js/main.0377fb6d.chunk.js"
+    "static/js/2.ae740b77.chunk.js",
+    "static/js/main.62c41804.chunk.js"
   ]
 }
