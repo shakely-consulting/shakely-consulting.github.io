@@ -85,7 +85,7 @@ const Navigation = () => (
                 <li>
                   <a
                     className="js-hover-menu-img"
-                    href="terms-conditions/"
+                    href="/"
                     data-img=""
                   >
                     Terms & Conditions
