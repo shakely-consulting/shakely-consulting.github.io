@@ -7,12 +7,7 @@ export class Pdf extends React.Component {
     return (
       <div className="carousel-cell">
         <div className="c-InvestmentCard ">
-          <a
-            href={QReport}
-            className="button"
-            target="_blank"
-            rel="noopener noreferrer"
-          ></a>
+          <div role="menuitem" href={QReport}></div>
           <div className="c-InvestmentCard__inner">
             <div className="c-InvestmentCard__background">
               <picture className="js-Parallax-intrinsic">
@@ -43,10 +38,11 @@ export class Pdf extends React.Component {
                 <h3 className="c-InvestmentCard--header">Quarterly Report</h3>
                 <a
                   href={QReport}
-                  className="button"
                   target="_blank"
                   rel="noopener noreferrer"
-                >Link to Document</a>
+                >
+                  Link to Document
+                </a>
               </div>
             </div>
           </div>
