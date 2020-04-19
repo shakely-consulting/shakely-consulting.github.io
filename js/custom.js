@@ -86,3 +86,9 @@ for (var i = 0, max = TextElements.length; i < max; i++) {
     }
   };
 })("docReady", window);
+
+docReady(function () {
+  var d = new Date();
+  var n = d.getFullYear();
+  document.getElementById("getYear").appendChild(document.createTextNode(n));
+});
